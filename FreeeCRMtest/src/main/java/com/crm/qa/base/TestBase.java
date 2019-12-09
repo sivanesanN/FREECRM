@@ -16,7 +16,9 @@ public class TestBase {
 	public static Properties prop;
 	
 	
-	public TestBase()
+	
+	
+	static public TestBase()
 	{
 		try {
 		prop = new Properties();
